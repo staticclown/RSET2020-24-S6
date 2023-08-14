@@ -23,15 +23,15 @@ const {DynamoDBClient , GetItemCommand,PutItemCommand,ScanCommand,UpdateItemComm
 const REGION = "ap-south-1"
 const credentials= {
 
-    secretAccessKey: 'WbVrvyqcUFDTOBUS4+13UWlvs0LzMb3/80qX2Ihb',
-    accessKeyId: 'AKIAU4KAUOXD3FB6O76C'
+    secretAccessKey: 'Enter secret access key',
+    accessKeyId: 'Enter access key id'
 };
 const REGION1="ap-south-1";
-const credentials1={
-    secretAccessKey:'k1DdHwcwjV1cE6XEMAk1xihsL1/8MuuD5lFO9ZVZ',
-    accessKeyId: 'AKIAVBBA7M24BVL35YP3',
-}
+const credentials= {
 
+    secretAccessKey: 'Enter secret access key',
+    accessKeyId: 'Enter access key id'
+};
 //Create DynamoDB client object
 
 const client1 = new DynamoDBClient({   //client connect..authentication token?
@@ -274,5 +274,3 @@ app.listen(8080,()=>{ //specifying server port
 })
 
 
-//ncminfo accesskey//AKIAU4KAUOXDVVQS34HK
-//ncm secretAccessKey//yJvUAr1nrt8ltUDS1agmi2Z88B/tWYXT3vTIXyyE
